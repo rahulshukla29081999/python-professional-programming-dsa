@@ -15,11 +15,5 @@ def bubblesort(l):
         for j in range(n-1):
             if l[j]>l[j+1]:
                 l[j],l[j+1]=l[j+1],l[j]
-l = [2,10,8,7]
-  
-bubblesort(l)
-  
-print ("Sorted array is:")
-for i in range(len(l)):
-    print ("% d" % l[i],end="")
-
+    return l
+print(bubblesort([4,2,6,98,2]))
