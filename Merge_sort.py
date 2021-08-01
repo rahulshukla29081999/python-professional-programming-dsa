@@ -1,10 +1,11 @@
 
 
-def merge_sort(l):
+
+def merge_sort(l):                            #function 
     if len(l)>1:
-        mid=len(l)//2
-        L=l[:mid]
-        R=l[mid:]
+        mid=len(l)//2                        # dividing the given list 
+        L=l[:mid]#left list 
+        R=l[mid:]#right list 
         merge_sort(L)
         merge_sort(R) 
         i=j=k=0
@@ -27,9 +28,10 @@ def merge_sort(l):
             j=j+1
             k=k+1
 
-a=[5,4,9,2,74,2,1,55,6,2]
+a=[5,4,9,2,74,2,1,55,6,2]                    #given list 
 merge_sort(a)
-print(a)
+print(a)                                     #printt the list 
 
 
+# merge sort is used when data is too large .it uses divide and conquer paradigm.
 
