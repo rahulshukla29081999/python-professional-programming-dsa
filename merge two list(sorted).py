@@ -1,3 +1,6 @@
+#merge two sub array ..
+# time complexity of this is [Theta(m+n)]...
+
 def mergelists(a,b):
     res=[]
     m=len(a)
