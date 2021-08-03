@@ -16,4 +16,4 @@ def partition(l,p): # naive solution for quick sort ...
 l=[5,2,3,45,9]
 p=0
 k=partition(l,p)
-print("sorted  array is ",k)
+print("sorted  array is",k)
