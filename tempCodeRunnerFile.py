@@ -1,7 +1,9 @@
-def fun(n):#3
-#     if n==0:#2
-#         return#1
-#     print(n)#1
-#     fun(n-1)#2
-#     print(n)#3             #output....
-# fun(3) 
+#Without Dictionary COmprehension 
+# old_price={"tea":1.05,"coffee":2.3,"bread":2.5,"sugar":2.5}
+# new_price=dict()
+# for key,Value in old_price.items():
+#     if Value >2:
+#         new_price[key]=Value *10.6
+#     else:
+#         new_price[key]=Value
+# print(new_price)
